@@ -1,0 +1,82 @@
+.svg {
+  margin: 50px;
+
+  .mainContentSvg {
+    display: flex;
+    flex-direction: column;
+
+    .firstLineSvg {
+      display: flex;
+
+      .svg1 {
+
+      }
+
+      .svg2 {
+        margin-top: 25px;
+      }
+
+      .svg3 {
+        margin-top: 25px;
+        margin-left: -100px;
+
+      }
+
+      .svg4 {
+        margin-left: -90px;
+
+      }
+
+      .svg5 {
+        margin-top: -50px;
+        margin-left: 50px;
+      }
+
+      .svg6 {
+        margin-top: -10px;
+        margin-left: -150px;
+      }
+
+      .svg7 {
+        margin-top: 50px;
+      }
+    }
+
+    .secondLineSvg {
+      display: flex;
+
+      .svg8 {
+      }
+
+      .example1 {
+      }
+
+      .example2 {
+      }
+
+      .example3 {
+        #rect1 {
+          margin: 50px;
+          //transform: rotate(-10deg);
+        }
+      }
+
+      .example4 {
+
+      }
+    }
+
+    .thirdLineSvg {
+      display: flex;
+
+      .example5 {
+      }
+      .example6{
+        //border: 1px solid #000;
+        width: 700px;
+        height: 420px;
+        display: flex;
+      }
+    }
+  }
+}
