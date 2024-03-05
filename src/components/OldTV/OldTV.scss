@@ -1,0 +1,21 @@
+.television-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 10px;
+  border-radius: 10px;
+
+  .television {
+    border: 5px solid black;
+    border-radius: 35px; // Стилизация рамки телевизора
+    overflow: hidden; // Обрезает изображения внутри SVG, чтобы они не выходили за рамки
+    background-color: #000;
+
+    .change-button {
+      cursor: pointer;
+      &:hover {
+        fill: darken(red, 20%); // Темнее красный цвет при наведении
+      }
+    }
+  }
+}
